@@ -1,0 +1,27 @@
+{
+  "name": "slackbotapi",
+  "version": "1.3.5",
+  "description": "a node.js API using Slack their RTM API",
+  "main": "router.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ws": "*",
+    "request": "*",
+    "jethro": "*",
+    "eventemitter3": "*",
+    "slackbotapi" : "*"
+  },
+  "author": "itty <ittytheitstar@gmail.com>",
+  "contributors": [
+  ],
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "directories": {
+  }
+
+}

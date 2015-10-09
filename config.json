@@ -1,0 +1,31 @@
+{
+
+  "token":"xoxb-11606013268-TRhbzjumlNcUNCrMPNLkhnJQ",
+  "defaultRespondChannel":"#general",
+  "logging":true,
+  "autoReconnect":false,
+
+  "bots":{
+      "callerbot":{
+          "enabled":true,
+          "respond":true,
+          "botfile":"callerbot.js",
+          "classname":"CallerBot",
+          "messegingname":"CallerBot",
+          "name":""
+      },
+
+      "prettybot":{
+          "enabled":false,
+          "respond":false,
+          "botfile":"prettybot.js",
+          "classname":"PrettyBot",
+          "messegingname":"Mr.Clean",
+          "name":"pretty"
+      }
+
+  }
+
+
+
+}
