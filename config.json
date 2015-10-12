@@ -6,22 +6,20 @@
   "autoReconnect":false,
 
   "bots":{
-      "callerbot":{
+      "callrest":{
           "enabled":true,
           "respond":true,
           "botfile":"callerbot.js",
           "classname":"CallerBot",
-          "messegingname":"CallerBot",
-          "name":""
+          "messegingname":"CallerBot"
       },
 
-      "prettybot":{
+      "pretty":{
           "enabled":false,
           "respond":false,
           "botfile":"prettybot.js",
           "classname":"PrettyBot",
-          "messegingname":"Mr.Clean",
-          "name":"pretty"
+          "messegingname":"Mr.Clean"
       }
 
   }
